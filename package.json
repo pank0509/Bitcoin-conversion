@@ -1,0 +1,16 @@
+{
+    "name": "Currency-conversion",
+    "private": true,
+    "version": "0.0.0",
+    "description": "This project for currency conversion",
+    "repository": "https://github.com/pank0509/Bitcoin-conversion",
+    "license": "MIT",
+    "devDependencies": {
+        "bower": "^1.7.7",
+        "http-server": "^0.9.0"
+    },
+    "scripts": {
+        "prestart": "npm install",
+        "start": "http-server -a localhost -p 8000 -c-1 ./app"
+    }
+}
